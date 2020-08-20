@@ -55,6 +55,6 @@ public class Test1 {
         when(dense.det()).thenReturn(1.0);
 
         //运行 det()，测试返回结果是否符合要求
-        assertEquals(1,(int)dense.det());
+        assertEquals(3,(int)dense.det());
     }
 }
